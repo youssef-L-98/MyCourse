@@ -15,6 +15,9 @@ namespace MyCourse
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            string url = "https://localhost:5002\r\n";
+            url = url.Trim();
+
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
