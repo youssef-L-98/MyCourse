@@ -11,6 +11,7 @@ namespace MyCourse.Controllers
 
         public IActionResult Index()
         {
+          ViewData["Title"] = "Benvenuto su MyCourse!";
           return View();
         }
         
